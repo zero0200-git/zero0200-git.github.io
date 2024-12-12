@@ -1,0 +1,14 @@
+html{
+	font-size:16px;
+}
+
+body{
+	background:rgba(0, 0, 0, 1);
+	color:rgba(200, 200, 200, 1);
+	white-space: pre-line;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button, input[type="number"], input[type="text"], button{
+	-webkit-appearance: none;
+	-moz-appearance: textfield;
+}
