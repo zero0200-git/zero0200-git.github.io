@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+</head>
+
+<body>
+    <div><h3>แบบสอบถาม</h3></div>
+    <hr>
+    <form>
+        <div>
+            <div><b>ข้อมูลผู้ตอบแบบสอบถาม</b></div>
+            <div><b>ชื่อ-นามสกุล </b><input type=text name=name style="width: 20rem;"></div>
+            <div><b>รหัสนักศึกษา </b><input type=text name=id style="width: 20rem;"></div>
+            <div><b>เพศ </b><input type=radio id=sexm name=sex value="ชาย"><label for="sexm">ชาย</label><input type=radio name=sex id=sexf value="หญิง"><label for="sexf">หญิง</label></div>
+            <div style="display: flex;align-items: center;"><span><b>สังกัดคณะ </b></span><select size="11" name="b">
+                    <option>วิทยาสาตร์</option>
+                    <option>วิทยาการคอมพิวเตอร์</option>
+                    <option>ครุศาสตร์</option>
+                    <option>บริหารธุรกิจและการจัดการ</option>
+                    <option>มนุษยศาสตร์</option>
+                    <option>เทคโนโลยีอุตสาหกรรม</option>
+                    <option>เกษตรศาสตร์</option>
+                    <option>พยาบาลศาสตร์</option>
+                    <option>สาธารณสุขศาสตร์</option>
+                    <option>แพทย์แผนไทยและทางเลือก</option>
+                    <option>นิติศาสตร์</option>
+                </select></div>
+            <div><b>แม่สีที่ชื่นชอบ </b><br>
+                <input type="checkbox" name="color" id="red" value="สีแดง"><label for=red>สีแดง</label>
+                <input type="checkbox" name="color" value="สีเขียว" id="green"><label for=green>สีเขียว</label>
+                <input type="checkbox" name="color" value="สีน้ำเงิน" id="blue"><label for=blue>สีน้ำเงิน</label></div>
+            <div><b>ผลไม้ที่ชื่นชอบ </b><br>
+                <input type="checkbox" name="fruit" id="mango" value="มะม่วง"><label for="mango">มะม่วง</label>
+                <input type="checkbox" name="fruit" id="mongoteen" value="น้อยหน่า"><label for="mongoteen">น้อยหน่า</label>
+                <input type="checkbox" name="fruit" id="durian" value="ทุเรียน"><label for="durian">ทุเรียน</label>
+                <br>
+                <input type="checkbox" name="fruit" id="longan" value="ลำใย"><label for="longan">ลำใย</label>
+                <input type="checkbox" name="fruit" id="guava" value="ฝรั่ง"><label for="guava">ฝรั่ง</label>
+                <input type="checkbox" name="fruit" id="watermelon" value="แตงโม"><label for="watermelon">แตงโม</label>
+            </div>
+            <div><b>อาหารที่ชื่นชอบ </b><br>
+                <input type="checkbox" name="food" id="tomyam" value="ต้มย่ากุ้ง"><label for="tomyam">ต้มย่ากุ้ง</label>
+                <input type="checkbox" name="food" id="omelet" value="ไข่เจียวหมูสับ"><label for="omelet">ไข่เจียวหมูสับ</label>
+                <input type="checkbox" name="food" id="chickencoco" value="แกงข่าไก่"><label for="chickencoco">แกงข่าไก่</label>
+                <br>
+                <input type="checkbox" name="food" id="chickengreencurry" value="แกงเขียวหวานไก่"><label for="chickengreencurry">แกงเขียวหวานไก่</label>
+                <input type="checkbox" name="food" id="padthai" value="ผัดไทย"><label for="padthai">ผัดไทย</label>
+                <input type="checkbox" name="food" id="squidradna" value="ราดหน้าหมึก"><label for="squidradna">ราดหน้าหมึก</label>
+            </div>
+            <button type="submit" style="align-self: center;">บันทึก</button>
+        </div>
+    </form>
+</body>
+<link type="text/css" rel="stylesheet" href="wf.css">
+
+</html>
